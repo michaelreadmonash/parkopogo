@@ -1,0 +1,28 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.61 131.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: white;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: white;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>logo2</title>
+  <g>
+    <rect class="cls-1" width="42.32" height="14.5" rx="4.29"/>
+    <rect class="cls-1" x="36.64" y="94.91" width="41.34" height="6.09" rx="1.76"/>
+    <rect class="cls-1" x="40.96" y="105" width="32.68" height="6.09" rx="1.76"/>
+    <rect class="cls-1" x="40.96" y="125.17" width="32.68" height="6.09" rx="1.76"/>
+    <rect class="cls-1" x="36.64" y="115.09" width="41.34" height="6.09" rx="1.76"/>
+    <rect class="cls-1" x="72.29" width="42.32" height="14.5" rx="4.29"/>
+    <path class="cls-2" d="M298.59,378.77c0-16.69-13.53-16.65-30.21-16.65" transform="translate(-241.29 -354.87)"/>
+    <path class="cls-2" d="M298.59,378.77c0-16.69,13.53-16.65,30.21-16.65" transform="translate(-241.29 -354.87)"/>
+    <path class="cls-1" d="M51.56,21.35H63a4,4,0,0,1,4,4V90.91a0,0,0,0,1,0,0H47.53a0,0,0,0,1,0,0V25.38A4,4,0,0,1,51.56,21.35Z"/>
+  </g>
+</svg>
