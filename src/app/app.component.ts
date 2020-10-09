@@ -35,4 +35,16 @@ export class AppComponent {
   home() {
     this.router.navigateByUrl('home')
   }
+
+  account() {
+    this.router.navigateByUrl('account')
+  }
+
+  messages() {
+    this.router.navigateByUrl('messages')
+  }
+
+  premium() {
+    this.router.navigateByUrl('premium')
+  }
 }

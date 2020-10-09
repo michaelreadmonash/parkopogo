@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class LoginPage {
 
-  constructor(private router:Router) { }
+  constructor(private router:Router) {}
 
   routeLogin() {
     this.router.navigateByUrl('/home');

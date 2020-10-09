@@ -8,10 +8,16 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
+  colourHeart: string = "light";
+
   constructor(private router:Router) {}
 
   routePage() {
     this.router.navigateByUrl('/login');
+  }
+
+  changeHeartColour() {
+    return this.colourHeart = "danger"
   }
 
 }
