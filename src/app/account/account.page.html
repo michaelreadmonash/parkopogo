@@ -9,7 +9,7 @@
 
     <ion-buttons slot="end">
       <ion-button>
-        <ion-icon name="person"></ion-icon>
+        <ion-icon name="settings"></ion-icon>
       </ion-button>
     </ion-buttons>
 
@@ -27,53 +27,134 @@
     </ion-text>
   </div>
 
-
-
-<ion-grid>
-  <ion-row>
-    <ion-col class="">
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-    <ion-col>
-      <img src="../../assets/account-icon.png">
-    </ion-col>
-  </ion-row>
-</ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)="clicked(1)">
+        <img src="../../assets/account-images/account-image1.png">
+      </ion-col>
+      <ion-col (click)="clicked(2)">
+        <img src="../../assets/account-images/account-image2.png">
+      </ion-col>
+      <ion-col (click)="clicked(3)">
+        <img src="../../assets/account-images/account-image3.png">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col (click)="clicked(4)">
+        <img src="../../assets/account-images/account-image4.png">
+      </ion-col>
+      <ion-col (click)="clicked(5)">
+        <img src="../../assets/account-images/account-image5.png">
+      </ion-col>
+      <ion-col (click)="clicked(6)">
+        <img src="../../assets/account-images/account-image6.png">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col (click)="clicked(7)">
+        <img src="../../assets/account-images/account-image7.png">
+      </ion-col>
+      <ion-col (click)="clicked(8)">
+        <img src="../../assets/account-images/account-image8.png">
+      </ion-col>
+      <ion-col (click)="clicked(9)">
+        <img src="../../assets/account-images/account-image9.png">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col (click)="clicked(10)">
+        <img src="../../assets/account-images/account-image10.png">
+      </ion-col>
+      <ion-col (click)="clicked(11)">
+        <img src="../../assets/account-images/account-image11.png">
+      </ion-col>
+      <ion-col (click)="clicked(12)">
+        <img src="../../assets/account-images/account-image12.png">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
 
+<div *ngIf="imageSelector == 1" class="toggledImage">
+  <img src="../../assets/account-images/account-image1.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 2" class="toggledImage">
+  <img src="../../assets/account-images/account-image2.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 3" class="toggledImage">
+  <img src="../../assets/account-images/account-image3.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 4" class="toggledImage">
+  <img src="../../assets/account-images/account-image4.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 5" class="toggledImage">
+  <img src="../../assets/account-images/account-image5.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 6" class="toggledImage">
+  <img src="../../assets/account-images/account-image6.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 7" class="toggledImage">
+  <img src="../../assets/account-images/account-image7.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 8" class="toggledImage">
+  <img src="../../assets/account-images/account-image8.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 9" class="toggledImage">
+  <img src="../../assets/account-images/account-image9.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 10" class="toggledImage">
+  <img src="../../assets/account-images/account-image10.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 11" class="toggledImage">
+  <img src="../../assets/account-images/account-image11.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>
+
+<div *ngIf="imageSelector == 12" class="toggledImage">
+  <img src="../../assets/account-images/account-image12.png">
+  <ion-button color="danger" large (click)="clicked(0)">
+    <ion-icon name="close"></ion-icon>
+  </ion-button>
+</div>

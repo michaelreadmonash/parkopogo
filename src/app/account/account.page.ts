@@ -9,5 +9,11 @@ export class AccountPage {
 
   constructor() { }
 
+  imageSelector: Number = 0;
+
+  clicked(image) {
+    this.imageSelector = image
+    return this.imageSelector;
+  }
 
 }
