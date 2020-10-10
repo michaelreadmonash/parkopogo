@@ -47,4 +47,8 @@ export class AppComponent {
   premium() {
     this.router.navigateByUrl('premium')
   }
+
+  notImplemented() {
+    alert("This feature hasn't been implemented...");
+  }
 }
